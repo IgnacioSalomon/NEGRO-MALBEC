@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+header .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .container .logo img {
+  height: 90px;
+  width: 135px;
+  padding: 15px 20px;
+}
+header .container .barra-navegacion {
+  display: flex;
+  align-items: center;
+}
+header .container .barra-navegacion a {
+  font-family: "Stigma Serif Display";
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 0 15px;
+  position: relative;
+}
+header .container .barra-navegacion a:hover {
+  border-bottom: solid 2px;
+}
+
+/* Fin header */
+/* Titulo */
+#titulo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/local-titulo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 63vh;
+}
+#titulo .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#titulo .container h1 {
+  font-family: "Voga";
+  font-weight: 100;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 55px;
+  text-align: center;
+}
+
+/* Fin titulo */
+/* Carrusel */
+
+/*# sourceMappingURL=style.css.map */
