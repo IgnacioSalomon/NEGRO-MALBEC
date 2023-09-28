@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow: overlay;
 }
 
 /* Header */
@@ -59,6 +60,150 @@ header .container .barra-navegacion a:hover {
 }
 
 /* Fin titulo */
-/* Carrusel */
+/* Nosotros */
+#nosotros {
+  background-color: rgb(240, 240, 240);
+}
+#nosotros .container {
+  padding: 110px 0;
+}
+#nosotros .container h2 {
+  font-family: "Helvetica W01 Light";
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+#nosotros .container .parrafos {
+  display: flex;
+  padding-top: 40px;
+}
+#nosotros .container .parrafos p {
+  padding: 0 60px;
+  font-family: "Helvetica W01 Light";
+  color: black;
+}
+
+/* Fin nosotros */
+/* Servicios */
+#servicios {
+  background-color: black;
+}
+#servicios .container {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+#servicios .container h2 {
+  color: white;
+  font-family: "Helvetica W01 Light";
+  font-weight: 500;
+  text-align: center;
+}
+#servicios .container .texto-servicios {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  justify-items: center;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+#servicios .container .texto-servicios .texto-grid {
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  border-radius: 5%;
+  height: 400px;
+  width: 220px;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 8px 8px 15px rgb(15, 15, 15);
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+#servicios .container .texto-servicios .texto-grid h4 {
+  color: white;
+  font-family: "Helvetica W01 Light";
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 80%;
+  padding-bottom: 20px;
+}
+#servicios .container .texto-servicios .texto-grid p {
+  color: white;
+  font-family: "Helvetica W01 Light";
+  font-weight: 200;
+  font-size: 15px;
+}
+#servicios .container .texto-servicios .p1 {
+  background-image: url("../assets/org-eventos.jpg");
+  background-position: top center;
+  background-size: 100% 38%;
+  background-repeat: no-repeat;
+}
+#servicios .container .texto-servicios .p2 {
+  background-image: url("../assets/sommelier.jpg");
+  background-position: top center;
+  background-size: 100% 38%;
+  background-repeat: no-repeat;
+}
+#servicios .container .texto-servicios .p3 {
+  background-image: url("../assets/barra.jpg");
+  background-position: top center;
+  background-size: 100% 38%;
+  background-repeat: no-repeat;
+}
+
+/* Fin servicios */
+/* Footer */
+footer {
+  background-color: rgb(220, 220, 220);
+}
+footer .container {
+  padding: 15px 0 10px 0;
+}
+footer .container .logo-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+footer .container .logo-footer img {
+  height: 80px;
+  width: auto;
+}
+footer .container .redes-sociales {
+  display: flex;
+  justify-content: center;
+}
+footer .container .redes-sociales img {
+  height: 20px;
+  width: auto;
+}
+footer .container .whatsapp {
+  display: flex;
+  justify-content: center;
+}
+footer .container .whatsapp a {
+  margin-top: 7px;
+  text-decoration: none;
+  color: black;
+  font-family: "Helvetica W01 Light";
+  font-size: 14px;
+}
+footer .desarrollador {
+  background-color: rgb(190, 190, 190);
+}
+footer .desarrollador .container {
+  display: flex;
+  padding: 8px 0;
+  justify-content: center;
+}
+footer .desarrollador .container p {
+  font-family: "Helvetica W01 Light";
+  color: black;
+  font-size: 13px;
+}
+footer .desarrollador .container p a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Fin footer */
 
 /*# sourceMappingURL=style.css.map */

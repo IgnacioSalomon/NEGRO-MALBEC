@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: overlay;
 }
 
 /* Header */
@@ -75,8 +76,177 @@ header {
 
 /* Fin titulo */
 
-/* Carrusel */
+/* Nosotros */
 
-#carrusel-vinos {
-    
+#nosotros {
+    background-color: rgba(240, 240, 240);
+
+    .container {
+        padding: 110px 0;
+
+        h2 {
+            font-family: "Helvetica W01 Light";
+            font-weight: 500;
+            color: black;
+            text-align: center;
+        }
+
+        .parrafos {
+            display: flex;
+            padding-top: 40px;
+
+            p {
+                padding: 0 60px;
+                font-family: "Helvetica W01 Light";
+                color: black;
+            }
+        }
+    }
 }
+
+/* Fin nosotros */
+
+/* Servicios */
+
+#servicios {
+    background-color: black;
+
+    .container {
+        padding-top: 50px;
+        padding-bottom: 40px;
+
+        h2 {
+            color: white;
+            font-family: "Helvetica W01 Light";
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .texto-servicios {
+            display: grid;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            justify-items: center;
+            padding-bottom: 40px;
+            padding-top: 25px;
+            
+            .texto-grid {
+                align-items: center;
+                background-color: rgba(15, 15, 15);
+                border-radius: 5%;
+                height: 400px;
+                width: 220px;
+                text-align: center;
+                margin-top: 40px;
+                box-shadow: 8px 8px 15px  rgba(15, 15, 15);
+                margin-bottom: 30px;
+                justify-content: space-evenly;
+
+                h4 {
+                    color: white;
+                    font-family: "Helvetica W01 Light";
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 80%;
+                    padding-bottom: 20px;
+                }
+    
+                p {
+                    color: white;
+                    font-family: "Helvetica W01 Light";
+                    font-weight: 200;
+                    font-size: 15px;
+                }
+            }
+
+            .p1 {
+                background-image: url("../assets/org-eventos.jpg");
+                background-position: top center;
+                background-size: 100% 38%;
+                background-repeat: no-repeat;
+            }
+
+            .p2 {
+                background-image: url("../assets/sommelier.jpg");
+                background-position: top center;
+                background-size: 100% 38%;
+                background-repeat: no-repeat;
+            }
+
+            .p3 {
+                background-image: url("../assets/barra.jpg");
+                background-position: top center;
+                background-size: 100% 38% ;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+/* Fin servicios */
+
+/* Footer */
+
+footer {
+    background-color: rgba(220, 220, 220);
+
+    .container {
+        padding: 15px 0 10px 0;
+
+        .logo-footer {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+
+            img {
+                height: 80px;
+                width: auto;
+            }
+        }
+
+        .redes-sociales {
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+
+        .whatsapp {
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin-top: 7px;
+                text-decoration: none;
+                color: black;
+                font-family: "Helvetica W01 Light";
+                font-size: 14px;
+            }
+        }
+    }
+
+    .desarrollador {
+        background-color: rgba(190, 190, 190);
+
+        .container {
+            display: flex;
+            padding: 8px 0;
+            justify-content: center;
+
+            p {
+                font-family: "Helvetica W01 Light";
+                color: black;
+                font-size: 13px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+/* Fin footer */
